@@ -14,7 +14,7 @@ except ImportError:
     from util import get_repository_root
 
 
-if _name_ == "__main__":
+if __name__ == "__main__":
     import os
     root_dir = get_repository_root()
     INFILE = root_dir / "data" / "ex_5_2-data.csv"
