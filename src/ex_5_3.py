@@ -7,6 +7,7 @@ This module contains an entry point that:
 """
 import numpy as np
 from argparse import ArgumentParser
+from util import get_repository_root
 
 if __name__ == "__main__":
     import os
