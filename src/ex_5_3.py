@@ -8,7 +8,7 @@ This module contains an entry point that:
 import numpy as np
 from argparse import ArgumentParser
 
-if _name_ == "__main__":
+if __name__ == "__main__":
     import os
     parser = ArgumentParser(description='This program applies a standard scale transform to the data in infile and writes it to outfile.')
     parser.add_argument('infile',help='provide input file path',nargs='?')
